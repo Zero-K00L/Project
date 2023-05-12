@@ -49,7 +49,6 @@ h2 {
   margin-bottom: 1.5625rem;
 }
 
-
 a, a:visited, a:hover {
   text-decoration: none;
   color: var(--grayishBlue);
@@ -68,23 +67,29 @@ a, a:visited, a:hover {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
 }
+
 .py {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
 }
+
 .px {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
 .pt {
   padding-top: 2.25rem;
 }
+
 .pr {
   padding-right: 1.5rem;
 }
+
 .pb {
   padding-bottom: 2.25rem;
 }
+
 .pl {
   padding-left: 1.5rem;
 }
@@ -98,9 +103,11 @@ a, a:visited, a:hover {
 .jc-sb {
   justify-content: space-between;
 }
+
 .jc-c {
   justify-content: center;
 }
+
 .ai-c {
   align-items: center;
 }
@@ -114,7 +121,6 @@ a, a:visited, a:hover {
   background-color: var(--darkBlue); 
   transition: all 300ms ease-in-out;
   transform-origin: 3px 1px;
-
 }
 
 .header__menu > span:not(:last-child) {
@@ -159,10 +165,6 @@ a, a:visited, a:hover {
 
 /* animation for hamburger menu */
 
-.header__open {   /* turns on animation for hamburger menu */
-
-}
-
 .header__open > span:first-child {
   transform: rotate(45deg);
 }
@@ -204,7 +206,6 @@ button, .button {
 .button__mobile:hover {
   opacity: 0.75;
 }
-
 
 /* overlay for hamburger menu */
 .overlay {
@@ -842,6 +843,7 @@ button, .button {
     display: flex;
     flex-wrap: wrap;
   }
+  
   .feature__item {
     flex: 1;
   }
