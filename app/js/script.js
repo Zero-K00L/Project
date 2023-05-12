@@ -12,8 +12,7 @@ btnHamburger.addEventListener('click', function(){
         fadeElems.forEach(function(element){
             element.classList.remove('fade-in');          
             element.classList.add('fade-out');  
-        });   
-                  
+        });      
     }                                                      
     else {                                                 /* open hamburger menu */
         body.classList.add('noscroll');                                           
@@ -22,17 +21,6 @@ btnHamburger.addEventListener('click', function(){
         fadeElems.forEach(function(element){
             element.classList.remove('fade-out');
             element.classList.add('fade-in');
-        });
-        /* overlayAnim.classList.remove('fade-out');
-        overlayAnim.classList.add('fade-in'); */
-        
+        }); 
     }   
 });
-
-
-
-//.remove overlay was commented out and allows for 
- //animation to work however must watch out for unforseen
-  //issues with this while continuing project such as
- //being unable to highlight text below where overlay should
-//be or unintentially activating menu
