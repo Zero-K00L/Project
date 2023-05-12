@@ -2,7 +2,7 @@ const btnHamburger = document.querySelector('#btnHamburger');
 const body = document.querySelector('body');
 const overlayAnim = document.querySelector('#overlay'); 
 const fadeElems = document.querySelectorAll('.has-fade');
-
+/* btnHamburger.classList.remove('header__open'); */
 btnHamburger.addEventListener('click', function(){
     console.log('open hamburger');
 
