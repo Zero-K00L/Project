@@ -290,7 +290,7 @@ button, .button {
 
 .hero__image {
   position: relative;
-  background-image: url('/images/bg-intro-mobile.svg');
+  background-image: url('images/bg-intro-mobile.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -302,7 +302,7 @@ button, .button {
   height: 108%;
   width: 100%;
   position: absolute;
-  background-image: url('/images/image-mockups.png');
+  background-image: url('images/image-mockups.png');
   background-size: 93%;
   background-repeat: no-repeat;
   background-position: center 91%;
@@ -518,7 +518,7 @@ button, .button {
     height: 117%;
     width: 66%;
     position: absolute;
-    background-image: url('/images/image-mockups.png');
+    background-image: url('images/image-mockups.png');
     background-size: 102%;
     background-repeat: no-repeat;
     background-position: center 203%;
@@ -530,7 +530,7 @@ button, .button {
     height: 100%;
     width: 150%;
     position: absolute;
-    background-image: url('/images/bg-intro-mobile.svg');
+    background-image: url('images/bg-intro-mobile.svg');
     background-size: 122%;
     background-repeat: no-repeat;
     background-position: 0% 83%;
@@ -578,7 +578,7 @@ button, .button {
     height: 128%;
     width: 66%;
     position: absolute;
-    background-image: url('/images/image-mockups.png');
+    background-image: url('images/image-mockups.png');
     background-size: 102%;
     background-repeat: no-repeat;
     background-position: center 150%;
@@ -590,7 +590,7 @@ button, .button {
     height: 100%;
     width: 150%;
     position: absolute;
-    background-image: url('/images/bg-intro-mobile.svg');
+    background-image: url('images/bg-intro-mobile.svg');
     background-size: 122%;
     background-repeat: no-repeat;
     background-position: 0% 83%;
@@ -664,7 +664,7 @@ button, .button {
     height: 128%;
     width: 128%;
     position: absolute;
-    background-image: url('/images/image-mockups.png');
+    background-image: url('images/image-mockups.png');
     background-size: 102%;
     background-repeat: no-repeat;
     background-position: center 74%;
@@ -676,7 +676,7 @@ button, .button {
     height: 100%;
     width: 150%;
     position: absolute;
-    background-image: url('/images/bg-intro-desktop.svg');
+    background-image: url('images/bg-intro-desktop.svg');
     background-size: 122%;
     background-repeat: no-repeat;
     background-position: 0% 83%;
@@ -820,7 +820,7 @@ button, .button {
     height: 128%;
     width: 128%;
     position: absolute;
-    background-image: url('/images/image-mockups.png');
+    background-image: url('images/image-mockups.png');
     background-size: 102%;
     background-repeat: no-repeat;
     background-position: center 74%;
@@ -832,7 +832,7 @@ button, .button {
     height: 100%;
     width: 177%;
     position: absolute;
-    background-image: url('/images/bg-intro-desktop.svg');
+    background-image: url('images/bg-intro-desktop.svg');
     background-size: 124%;
     background-repeat: no-repeat;
     background-position: 27% 66%;
