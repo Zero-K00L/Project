@@ -286,6 +286,7 @@ button, .button {
 /* Hero Elements */
 .hero {
   display:initial;
+  position: relative;
   background-color: var(--veryLightGray);
 }
 
@@ -303,6 +304,8 @@ button, .button {
   height: 108%;
   width: 100%;
   position: absolute;
+  top: 0;
+  left: 0;
   background-image: url('images/image-mockups.png');
   background-size: 93%;
   background-repeat: no-repeat;
@@ -330,7 +333,7 @@ button, .button {
 /* Features */
 .features {
   background-color: var(--lightGrayishBlue);
-  padding: 4.375rem;
+  padding: initial;
   text-align: center;
 }
 
@@ -487,7 +490,14 @@ button, .button {
 .attribution a { color: hsl(228, 45%, 44%); }
 
 /* Breakpoints and media queries */
-/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 360px) {
+  .features {
+    padding: initial;
+  }
+}
+
+/* Small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header__link, .button {
     display: none;
@@ -827,7 +837,7 @@ button, .button {
     background-size: 102%;
     background-repeat: no-repeat;
     background-position: center 74%;
-    left: 24%;
+    left: 19%;
   }
   
   .hero__image::before {
